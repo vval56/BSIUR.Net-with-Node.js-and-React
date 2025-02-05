@@ -1,6 +1,6 @@
 import React from "react";
 
-const Messages = () => {
+const Schedule = () => {
   return (<section className = "section-top">
         <div className="wrapper-inner">
             <div className="name-project">
@@ -15,4 +15,4 @@ const Messages = () => {
             </section>);
 };
 
-export default Messages;
+export default Schedule;
