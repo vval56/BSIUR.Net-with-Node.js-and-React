@@ -26,7 +26,7 @@ const App = () => {
               <i className="fa fa-graduation-cap" aria-hidden="true"></i>
             </button>
           </Link>
-          <Link to="/profile">
+          <Link to="/profile/*">
             <button id = "profile-button" className = "profile-button">
               <i className = "fa fa-user" aria-hidden="true"></i>
             </button>
@@ -38,7 +38,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/messages" element={<Messages />} />
         <Route path="/schedule" element={<Schedule />} />
-        <Route path="/profile" element={<Profile />} />
+        <Route path="/profile/*" element={<Profile />} />
       </Routes>
     </Router>
   );
