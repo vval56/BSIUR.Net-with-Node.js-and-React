@@ -11,7 +11,7 @@ const App = () => {
     <Router>
       <nav className = "section-end">
         <div className = "wrapper-inner">
-          <Link to="/">
+          <Link to="/home">
             <button id = "home-button" className = "home-button">
               <i className ="fa fa-home" aria-hidden="true"></i>
             </button>
@@ -35,7 +35,7 @@ const App = () => {
       </nav>
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
         <Route path="/messages" element={<Messages />} />
         <Route path="/schedule" element={<Schedule />} />
         <Route path="/profile/*" element={<Profile />} />
